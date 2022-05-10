@@ -1,0 +1,5 @@
+right.txt
+null.txt
+quit.txt
+another.txt
+error.txt

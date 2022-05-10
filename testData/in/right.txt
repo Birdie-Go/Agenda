@@ -1,0 +1,11 @@
+register xiaofang 1234
+register xiaochun 1234
+ReGiStEr zhuzhu 1234
+add xiaofang 1234 xiaochun 2022-01-01,12:12:12 2022-01-01,12:12:13 study
+add xiaochun 1234 xiaofang 2022-1-2,7:18:12 2022-1-2,8:18:13 study
+query xiaofang 1234 2020-1-1,0:0:0 2030-1-1,0:0:0
+query xiaofang 1234 2030-1-1,0:0:0 2030-1-1,0:0:0
+query xiaofang 1234 2022-1-1,12:15:12 2022-1-1,7:19:0
+delete xiaofang 1234 1
+clear xiaofang 1234
+quit

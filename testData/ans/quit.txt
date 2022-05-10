@@ -1,0 +1,9 @@
+
+D:\资料\上课\大三下\编译原理实验-李文军\java\2>cd bin 
+
+D:\资料\上课\大三下\编译原理实验-李文军\java\2\bin>java AgendaService -cp bin 
+欢迎访问议程管理系统
+Copyright (c) 2022, 2022, Fang Zhanhong, 19308030.
+输入help以查看指令
+
+$ 

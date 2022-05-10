@@ -1,0 +1,2 @@
+batch right.txt
+quit

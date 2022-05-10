@@ -1,0 +1,49 @@
+
+D:\资料\上课\大三下\编译原理实验-李文军\java\2>cd bin 
+
+D:\资料\上课\大三下\编译原理实验-李文军\java\2\bin>java AgendaService -cp bin 
+欢迎访问议程管理系统
+Copyright (c) 2022, 2022, Fang Zhanhong, 19308030.
+输入help以查看指令
+
+$ 批处理成功。
+register xiaofang 1234
+注册用户：xiaofang
+
+register xiaochun 1234
+注册用户：xiaochun
+
+ReGiStEr zhuzhu 1234
+注册用户：zhuzhu
+
+add xiaofang 1234 xiaochun 2022-01-01,12:12:12 2022-01-01,12:12:13 study
+ 会议编号      起始时间                  结束时间                    会议名称         会议发起人          会议陪同
+    1      2022-01-01,12:12:12      2022-01-01,12:12:13               study            xiaofang            xiaochun
+
+add xiaochun 1234 xiaofang 2022-1-2,7:18:12 2022-1-2,8:18:13 study
+ 会议编号      起始时间                  结束时间                    会议名称         会议发起人          会议陪同
+    2      2022-01-02,07:18:12      2022-01-02,08:18:13               study            xiaochun            xiaofang
+
+query xiaofang 1234 2020-1-1,0:0:0 2030-1-1,0:0:0
+2条查询结果：
+ 会议编号      起始时间                  结束时间                    会议名称         会议发起人          会议陪同
+    1      2022-01-01,12:12:12      2022-01-01,12:12:13               study            xiaofang            xiaochun
+    2      2022-01-02,07:18:12      2022-01-02,08:18:13               study            xiaochun            xiaofang
+
+query xiaofang 1234 2030-1-1,0:0:0 2030-1-1,0:0:0
+0条查询结果：
+
+query xiaofang 1234 2022-1-1,12:15:12 2022-1-1,7:19:0
+0条查询结果：
+
+delete xiaofang 1234 1
+已删除1号会议
+ 会议编号      起始时间                  结束时间                    会议名称         会议发起人          会议陪同
+    1      2022-01-01,12:12:12      2022-01-01,12:12:13               study            xiaofang            xiaochun
+
+clear xiaofang 1234
+已清除用户 xiaofang 发起的0个会议：
+
+
+
+$ 
